@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     
-    <Header name="WebProg" links={["Sobre","Contato","Login"]}></Header>
+    <Header name="WebProg" links={["Sobre","Contato","Login","Register"]}></Header>
 
 
 
