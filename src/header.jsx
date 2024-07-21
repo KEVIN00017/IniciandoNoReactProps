@@ -6,9 +6,9 @@ function Header(props){
         <header className='navbar'>
         <h1 id='title'>{props.name}</h1>
         <ul className='nav'>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>Login</li>
+          <li>{props.links[0]}</li>
+          <li>{props.links[1]}</li>
+          <li>{props.links[2]}</li>
         </ul>
        </header>
     )
